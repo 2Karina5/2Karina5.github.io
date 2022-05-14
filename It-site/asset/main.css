@@ -1,0 +1,274 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background: black;
+  color: white;
+}
+
+header .header--menu{
+  display: flex;
+  justify-content: center;
+}
+
+header .header--menu--logo{
+  position: absolute;
+  left: 35px;
+}
+
+header .header--menu--logo ul li{
+  padding: 10px;
+  cursor: default;
+}
+
+header ul{
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+header .header--menu ul li{
+  padding: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+header .header--menu ul li:hover{
+  background: #99999987;
+  transition: all 1s;
+}
+
+body{
+  background: #466368;
+  background: linear-gradient(to right, #5760d2, #3e00b2, #5760d2);}
+}
+
+body .Main-Content .Welcome{
+}
+
+body .Main-Content .Welcome--content{
+  background-color: #00000073;
+  text-align: center;
+  color: white;
+}
+
+body .Sector{
+  text-align: center;
+  color: white;
+  background: #00000073;
+  margin-top: 55px;
+}
+
+body .Main-Usluga .Usluga-Card{
+  text-align: center;
+  color: white;
+  background: #2e2f71;
+  margin-top: 55px;
+  border-radius: 50px;
+}
+
+body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){
+  display: none;
+}
+
+body .Main-Usluga .Usluga-Card .IMG-Usluga-Block{
+  font-size: 400px;
+}
+
+body .Main-Usluga .Usluga-Card .TXT-Usluga-Block{
+  background: #1805b55c;
+  border-radius: 50px;
+  box-shadow: -10px 0px 10px 1px #010e78;
+}
+
+body .TXT-Usluga--header{
+  margin-top: 55px;
+}
+
+body .TXT-Usluga--ul ul{
+  margin-top: 15px;
+  padding: 0;
+}
+
+body .TXT-Usluga--ul ul li{
+  display: inline-flex;
+  list-style: none;
+  font-size: 25px;
+  background: #5e5f95;
+  padding: 5px;
+  border-radius: 50px;
+  margin: 0 0 17px 0;
+}
+
+.TXT-Usluga--ul ul li.color-1{
+  background: linear-gradient(359deg, #ff00005e, #ff00a54d);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-2{
+  background: linear-gradient(25deg, #fff10073, #00ff7e54);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-3{
+  background: linear-gradient(277deg, #5dc1da5c, #ff572247);
+  font-weight: 500;
+}
+
+.TXT-Usluga--ul ul li.color-4{
+  background: linear-gradient(177deg, #7200ff4a, #ff00a55e);
+  font-weight: 500;
+}
+
+body .TXT-Usluga--prevu{
+  font-size: 20px;
+}
+
+body .TXT-Usluga--btn{
+  color: #fad7d7;
+  border-radius: 50px;
+  background: #0000006b;
+  cursor: grab;
+}
+
+body .TXT-Usluga--btn h1{
+  transition: all 0.5s;
+}
+
+body .TXT-Usluga--btn:hover h1{
+  color: #04ff05;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+body .Usluga-Arrows{
+  text-align: center;
+  justify-content: center;
+}
+
+body .Usluga-Arrows i{
+  background: aliceblue;
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+#Show-Usluga-2, #Show-Usluga-3{
+  display: none;
+}
+
+body .Usluga-Arrows i:hover{
+  background: #f0f8ff61;
+  border-radius: 50px;
+  color: red;
+  box-shadow: 0px 0px 20px 0px red;
+  transition: all 1s;
+}
+
+body .Main-About{
+  background: repeating-linear-gradient(45deg, black, transparent 100px);
+  margin-top: 55px;
+  border-radius: 15px;
+}
+
+body .Main-About .h3-1{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+body .Main-About .About--content{
+  margin: 30px 10px 30px 10px;
+  padding: 30px 15px 30px 25px;
+  background: white;
+  border-radius: 50px;
+}
+
+body .Main-About .div-1{
+  text-align: center;
+}
+
+body .Main-About .div-1 i{
+  font-size: -webkit-xxx-large;
+}
+
+body .Main-About .div-2 h4{
+  margin: 0;
+}
+
+body .Main-Call{
+  font-weight: bold;
+}
+
+body .Main-Call .Call:first-child{
+  margin-top: 55px;
+}
+
+body .Main-Call .Call{
+  background: #f0f8ff78;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+body .Main-Call .Call--Avatar{
+  text-align: end;
+}
+
+body .Main-Call .Call--Name p{
+  margin: 0;
+}
+
+body .Main-Call .Call--Msg p{
+  margin: 0;
+}
+
+body .Main-More-Info-Cont{
+  display: none;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background: #000000ab;
+  transition: 1s;
+}
+
+body .Info-Cont--Block{
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  bottom: 30px;
+  right: 30px;
+  color: white;
+  text-align: center;
+  background: #000000;
+  border-radius: 50px;
+}
+
+body .Info-Cont--Block .Info-Cont--Close{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+
+  body .Main-Usluga .Usluga-Card .IMG-Usluga-Block i:not(:first-child){
+    display: contents;
+  }
+
+  body .Main-Usluga .Usluga-Card .IMG-Usluga-Block{
+    font-size: 200px;
+  }
+
+}
